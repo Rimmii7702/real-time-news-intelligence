@@ -1,0 +1,24 @@
+# Runtime state and trained model (generated locally)
+artifacts/*
+!artifacts/.gitkeep
+run/*
+!run/.gitkeep
+# Measured metrics/ JSON files are intentionally commit-able after inspection.
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# OS / IDE / generated data
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sqlite3
+*.db
+nltk_data/
+data/

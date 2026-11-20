@@ -1,0 +1,12 @@
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
+artifacts/
+run/
+metrics/
+screenshots/
+results/
+*.zip
+*.sqlite3
+.DS_Store

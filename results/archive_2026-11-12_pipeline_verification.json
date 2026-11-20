@@ -1,0 +1,29 @@
+{
+  "audited_at_utc": "2026-11-12T21:34:08.048857+00:00",
+  "raw_articles": 69,
+  "kafka_entity_updates": 695,
+  "current_entity_documents": 141,
+  "total_ner_mentions": 208,
+  "checks": {
+    "unique_input_article_ids": true,
+    "kafka_counts_match_recomputed_real_input": true,
+    "elasticsearch_counts_match_kafka": true
+  },
+  "sample_real_article": {
+    "article_id": "8f1f8df58ed586758490c1234b91ce68083fe1277ca0657a8eacf1e8f7694f78",
+    "text": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions. Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
+    "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+    "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+    "published_at": "Thu, 12 Nov 2026 16:43:36 GMT",
+    "feed_url": "https://feeds.bbci.co.uk/news/rss.xml",
+    "observed_at": "2026-11-12T20:23:01.717058+00:00"
+  },
+  "sample_kafka_entity_update": {
+    "entity_id": "3f8abeb6de7a7f776c18dedf7b9149977e4669cf9cb30aafb59070107ae3b3dc",
+    "entity": "bicester",
+    "entity_type": "FAC",
+    "count": 1,
+    "updated_at": "2026-11-12T21:03:30.814064+00:00",
+    "batch_id": 5
+  }
+}

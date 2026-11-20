@@ -1,0 +1,19 @@
+{
+  "provenance": "Recorded results from the earlier CS 6350 Assignment 2, Question 2 execution, corroborated in the earlier discussion by summing the confusion-matrix diagonal. This integrated repository has not been rerun end-to-end.",
+  "dataset": "AG News training CSV, seeded random 80/20 partition",
+  "seed": 42,
+  "total_documents": 120000,
+  "training_documents": 96021,
+  "test_documents": 23979,
+  "correct_predictions": 21650,
+  "accuracy": 0.9028733475124067,
+  "macro_f1": 0.902529,
+  "vocabulary_size": 57219,
+  "per_class": {
+    "business": {"precision": 0.877653, "recall": 0.854216, "f1": 0.865776},
+    "sci_tech": {"precision": 0.872005, "recall": 0.879365, "f1": 0.875669},
+    "sports": {"precision": 0.950178, "recall": 0.979326, "f1": 0.964532},
+    "world": {"precision": 0.909953, "recall": 0.898396, "f1": 0.904137}
+  },
+  "caveat": "This score was measured on AG News, not on BBC live RSS. A new run of the trainer may have different split sizes if Spark partitions differ; use newly generated metrics for the integrated project."
+}
